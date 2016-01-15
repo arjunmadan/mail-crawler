@@ -1,0 +1,11 @@
+{
+  "name"         : "mail-scraper",
+  "version"      : "0.1.0",
+  "description"  : "A scraper to extract email information from public data",
+  "main"         : "app.js",
+  "author"       : "Arjun",
+  "dependencies" : {
+    "bluebird"   : "*",
+    "request"    : "*"
+  }
+}
