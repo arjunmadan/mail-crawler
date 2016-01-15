@@ -1,9 +1,10 @@
 var Bluebird = require("bluebird");
 var Request  = Bluebird.promisify(require("request"));
 
-var url = process.argv[2];
+var baseURL = "http://" + process.argv[2] + ".markmail.org/search/?page=";
+var count = 1;
 
-Request(url)
+Request(baseURL + count)
 .then(function (result) {
 	console.log(result);
 })
