@@ -6,6 +6,7 @@
   "author"       : "Arjun",
   "dependencies" : {
     "bluebird"   : "*",
-    "request"    : "*"
+    "request"    : "*",
+    "cheerio"    : "*"
   }
 }
